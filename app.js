@@ -47,7 +47,7 @@ let isAwake = false;
 console.log(val == str3); 5 == "5" // -> true, 5 == 5 or "5" == "5"
 console.log(val === str3); 5 === "5" // -> false
 console.log(!isAwake); // -> true 
-console.log(eleven == str4 && val >= str3); // -> false
+console.log("eleven" == str4 && val >= str3); // -> false
 console.log(!isAwake || isAwake); // -> true
 console.log(0 == false); // -> true
 console.log(0 === false); // -> false
